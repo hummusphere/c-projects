@@ -8,7 +8,7 @@ int main() {
     while (i<max) {
         while (k<max) {
             float c = sqrt((i*i) + (k*k));
-            if (c+k+i == max && c!=k && c!=i) {printf("%.1f | %.1f |%.1f\n", c, i, k);}
+            if (c+k+i == max && c!=k && c!=i) {printf("%f\n", c*i*k);}
             k++;
         }
         i++;
